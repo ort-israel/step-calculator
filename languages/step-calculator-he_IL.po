@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-01-22 10:49+0200\n"
+"PO-Revision-Date: 2020-01-22 11:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: step-calculator.php\n"
+
+#: step-calculator.php:36 step-calculator.php:65
+msgid "choose_activity_from_list"
+msgstr "בחר פעילות מהרשימה"
+
+#: step-calculator.php:37
+msgid "result_no_found"
+msgstr "לא נמצאו תוצאות"
+
+#: step-calculator.php:38 step-calculator.php:72
+msgid "minutes"
+msgstr "דקות"
+
+#: step-calculator.php:39
+msgid "steps"
+msgstr "צעדים"
+
+#: step-calculator.php:40
+msgid "remove_line"
+msgstr "הסר שורה"
+
+#: step-calculator.php:41
+msgid "error_choose_activity"
+msgstr "יש לבחור סוג פעילות"
+
+#: step-calculator.php:42
+msgid "error_choose_specific_activity"
+msgstr "יש לבחור פעילות ספציפית"
+
+#: step-calculator.php:43
+msgid "error_choose_duration"
+msgstr "יש לבחור משך פעילות"
+
+#: step-calculator.php:53
+msgid "activity_type"
+msgstr "סוג הפעילות"
+
+#: step-calculator.php:57
+msgid "choose_activity_type"
+msgstr "בחר סוג פעילות"
+
+#: step-calculator.php:61
+msgid "specific_activity"
+msgstr "פעילות ספציפית"
+
+#: step-calculator.php:69
+msgid "duration_of_activity"
+msgstr "משך הפעילות"
+
+#: step-calculator.php:76
+msgid "add_to_list"
+msgstr "הוספה לרשימה"
+
+#: step-calculator.php:82
+msgid "activity"
+msgstr "פעילות"
+
+#: step-calculator.php:83
+msgid "duration"
+msgstr "משך"
+
+#: step-calculator.php:84
+msgid "total_steps"
+msgstr "כמות צעדים"
+
+#: step-calculator.php:85
+msgid "reset_table"
+msgstr "איפוס טבלה"
+
+#: step-calculator.php:89
+msgid "total"
+msgstr "סה\"כ"
+
+#: step-calculator.php:102
+msgid "rotate_phone_text"
+msgstr ""
+"                  דף זה נצפה במיטבו לרוחב\n"
+"                  אנא סובבו את המכשיר"

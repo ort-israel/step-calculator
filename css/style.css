@@ -1,0 +1,245 @@
+
+.page .type-page {
+    background-color: #FFF;
+    padding: 40px;
+    font-family: OpenSansHebrewCondensed-Regular;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 300px;
+}
+
+.grid-item{
+    align-self: center;
+}
+
+button,
+.button{
+    font-family: OpenSansHebrewCondensed-Regular;
+    font-size: 19px;
+    font-weight: normal;
+    color: #045d5c;
+    background-color: #d3db2f;
+    border-radius: 6px 6px 6px 6px;
+    border-color: #ccc;
+    transition: background-color .3s linear !important;
+}
+
+button:hover,
+.button:hover,
+.button:focus,
+.button:active{
+    background-color: #fafafa;
+    color: #333;
+    text-decoration: none;
+    border-color: #999;
+    outline: none;
+}
+
+#timeDropDown{
+    width:100px;
+}
+
+.durationField
+{
+    display:inline-flex;
+    align-items: center;
+}
+
+.durationField input
+{
+    margin-left:10px;
+}
+
+/*Table*/
+
+tr:nth-child(even) {background-color: #eef1f2;}
+
+
+table, th, td {
+    border: 1px solid #bfbfbf;
+}
+
+table{
+    border-top: 5px solid #f05323;
+    width:80%;
+}
+
+th{
+    font-family: 'OpenSansHebrewCondensed-ExtraBold', 'Arial';
+    font-size: 24px;
+}
+td, th{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*Columns width*/
+td:nth-child(1) {
+    width: 42%;
+}
+
+td:nth-child(2) {
+    width: 18%;
+}
+
+td:nth-child(3) {
+    width: 18%;
+}
+
+td:nth-child(4) {
+    width: 20%;
+}
+
+tfoot
+{
+    font-weight: bold;
+}
+
+.removeLineSpan{
+    color: #045d5c;
+}
+
+/* Tsofiya: changed for accessibility reasons */
+/*.removeLineSpan button{
+    border-radius: 50%;
+    padding: 0px 7px;
+    font-size: 29px;
+    margin-left: 10px;
+    line-height: 0.8;
+    text-decoration-line: line-through;
+}*/
+.removeLineSpan button{
+    background-color: transparent;
+    border: none;
+    padding-right: 0;
+}
+
+.removeLineSpan button:hover{
+    color: #045d5c;
+    background-color: transparent !important; /* to override theme style*/
+}
+
+.removeLineSpan button:before{
+    content: '−';
+    font-family: 'OpenSansHebrewCondensed-ExtraBold', 'Arial';
+    color: #045d5c;
+    background-color: #d3db2f;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+    border-radius: 50%;
+    padding: 0 7px;
+    transition: background-color .3s linear;
+}
+
+.removeLineSpan button:hover:before,
+.removeLineSpan button:focus:before,
+.removeLineSpan button:active:before{
+    color: #333;
+    background-color: #fafafa;
+    border-color: #999;
+}
+
+
+#buttonAdd
+{
+    margin-bottom: 25px;
+}
+
+#buttonDeleteAll
+{
+    width: 95%;
+    margin:3px;
+}
+
+
+
+/*Drop downs*/
+select#activity, select#category{
+    width:300px;
+    border: 1px solid #bfbfbf;
+}
+
+.select2-selection__arrow
+{
+    font-size: 28px;
+    font-weight: normal;
+    color: #045d5c;
+    background-color: #d3db2f;
+    height:93%!important;
+    width:30px!important;
+    text-align: center;
+}
+
+.select2-container--default .select2-selection--single
+{
+    height: 35px!important;
+}
+
+    /*modal*/
+
+.modal {
+    position: fixed;
+    font-size:26px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modal-dialog {
+    top: 50%;
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+@media screen and (max-width: 470px) and (orientation: portrait) {
+    body
+    {
+        overflow: hidden!important;
+        position: fixed!important;
+    }
+    body .hue-modal {
+        display: block !important;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    body .hue-modal, .pw-hue-test .hue-modal-backdrop {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    body .hue-modal-backdrop {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        z-index: 1040;
+        background-color: #000;
+        filter: alpha(opacity=50);
+        opacity: .5;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    table{
+        width:100%;
+    }
+}
+
+.select2-results__option--highlighted {
+    color: white !important;
+    background-color: #045d5c!important;
+}
+
